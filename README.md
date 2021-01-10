@@ -36,7 +36,7 @@ public class App extends AdManagerApp {
 
 ```
 
-Also in `Manifest.xml`:
+Also in `AndroidManifest.xml`:
 
 ```xml
 <application
