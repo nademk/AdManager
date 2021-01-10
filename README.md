@@ -40,13 +40,13 @@ Also in `Manifest.xml`:
 
 ```xml
 <application
-        android:name=".App"
-	...
-	...
-	...
-	...  >
+      android:name=".App"
+      ...
+      ...
+      ...
+      ...  >
 	
-    </application>
+</application>
 
 ```
 
@@ -66,6 +66,19 @@ public class MainActivity extends BannerAdActivity {
         showAdmobBanner("", R.id.ad_layout);
     }
 }
+```
+
+Declare Ad Layout in your `Activity.xml`:
+
+``` xml
+<LinearLayout
+     android:id="@+id/ad_layout"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     android:layout_alignParentBottom="true"
+     android:orientation="horizontal">
+</LinearLayout>
 ```
 
 Show AdMob Banner:
