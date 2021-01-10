@@ -68,7 +68,7 @@ public class MainActivity extends BannerAdActivity {
 }
 ```
 
-Declare Ad Layout in your `Activity.xml`:
+Declare Banner Ad Layout in your `XXX_Activity.xml`:
 
 ``` xml
 <LinearLayout
