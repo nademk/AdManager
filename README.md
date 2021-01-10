@@ -36,6 +36,20 @@ public class App extends AdManagerApp {
 
 ```
 
+Also in `Manifest.xml`:
+
+```xml
+<application
+        android:name=".App"
+	...
+	...
+	...
+	...  >
+	
+    </application>
+
+```
+
 ## Usage
 
 For showing banner ads, you need to extend your activity class to `BannerAdActivity` class:
