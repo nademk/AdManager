@@ -71,21 +71,21 @@ public class MainActivity extends BannerAdActivity {
 Show AdMob Banner:
 
 ``` java
-showAdmobBanner("", R.id.ad_layout);
+showAdmobBanner("ADMOB_BANNER_AD_ID_HERE", R.id.ad_layout);
 ```
 Show AdMob Interstitial:
 
 ``` java
-InterstitialAdUtility.showAdmobInterstitial(MainActivity.this, "YOUR_ADMOB_INTERSTITIAL_ID_HERE", 1);
+InterstitialAdUtility.showAdmobInterstitial(MainActivity.this, "ADMOB_INTERSTITIAL_AD_ID_HERE", 1);
 ```
 
 Show Facebook Banner:
 
 ``` java
-showFacebookBanner("", R.id.ad_layout);
+showFacebookBanner("FACEBOOK_BANNER_AD_ID_HERE", R.id.ad_layout);
 ```
 Show Facebook Interstitial:
 
 ``` java
-InterstitialAdUtility.showFbInterstitial(MainActivity.this, "YOUR_FACEBOOK_INTERSTITIAL_ID_HERE", 1);
+InterstitialAdUtility.showFbInterstitial(MainActivity.this, "FACEBOOK_INTERSTITIAL_AD_ID_HERE", 1);
 ```
